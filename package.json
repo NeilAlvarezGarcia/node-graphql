@@ -1,0 +1,22 @@
+{
+  "name": "node-graphql",
+  "version": "1.0.0",
+  "description": "An example of node and graphql working together",
+  "main": "index.js",
+  "scripts": {
+    "dev": "",
+    "build": "tsc",
+    "start": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilAlvarezGarcia/node-graphql.git"
+  },
+  "keywords": ["graphql", "node", "API", "rest"],
+  "author": "Neil Alvarez Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeilAlvarezGarcia/node-graphql/issues"
+  },
+  "homepage": "https://github.com/NeilAlvarezGarcia/node-graphql#readme"
+}
