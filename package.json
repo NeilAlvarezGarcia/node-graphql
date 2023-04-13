@@ -1,22 +1,21 @@
 {
-  "name": "node-graphql",
+  "name": "graphql-yoga-moongose",
   "version": "1.0.0",
-  "description": "An example of node and graphql working together",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "",
-    "build": "tsc",
-    "start": "node"
+    "start": "nodemon src/index"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NeilAlvarezGarcia/node-graphql.git"
-  },
-  "keywords": ["graphql", "node", "API", "rest"],
-  "author": "Neil Alvarez Garcia",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NeilAlvarezGarcia/node-graphql/issues"
+  "dependencies": {
+    "express": "^4.18.2",
+    "graphql-yoga": "^3.8.0",
+    "mongoose": "^7.0.3"
   },
-  "homepage": "https://github.com/NeilAlvarezGarcia/node-graphql#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
